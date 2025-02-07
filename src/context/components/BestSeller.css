@@ -1,0 +1,16 @@
+.bestseller-heading{
+    justify-content:center;
+    align-items:center;
+    text-decoration:double;
+    margin-left:1000px;
+    font-variant-caps: all-petite-caps;
+    color:maroon;
+    font-size:50px;
+}
+
+@media(max-width:768px){
+    .bestseller-heading{
+        font-size:16px;
+        margin-left:250px;
+    }
+}
