@@ -1,4 +1,11 @@
 # React + Vite
+This project is built using Vite 6.0.5 version development tool.
+
+
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
