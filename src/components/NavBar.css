@@ -1,0 +1,156 @@
+
+/* Global Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: #ffffff; 
+    box-shadow: 0 1px 3px -2px black;
+    width:100%;
+}
+
+/* Logo Section */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-logo img {
+    height: 80px; 
+    padding:0px 0px 0px 20px;
+
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+.nav-menu a:hover {
+    color: #FF9900; /* Amazon's signature color */
+}
+
+.nav-all-screen-items{
+    display:flex;
+    margin-right:100px;
+    gap:40px;
+    font-size: 20px;
+}
+/* Search Bar */
+.nav-search {
+    display: flex;
+    align-items: center;
+    color: #555;
+    padding: 0px 10px 0px 0px;
+}
+.nav-search img{
+    height:25px;
+    width:25px;
+}
+   
+
+
+/* Login & Cart */
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-login-cart a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+.nav-login-cart a:hover {
+    color: #FF9900;
+}
+
+/* Cart Icon with Count */
+.nav-cart {
+    position: relative;
+    cursor: pointer;
+}
+.nav-cart-count {
+    position:absolute;
+    margin-left:125px;
+    margin-bottom:20px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-menu-icon  img{
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Sidebar for Mobile */
+.sidebar {
+    position: fixed;
+    margin-top:450px;
+    width: 250px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    transition: left 0.3s ease-in-out;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sidebar a:hover {
+    background-color: #37475a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-all-screen-items{
+        margin-right:50px;
+        gap:10px;
+    }
+    .nav-menu {
+        display: none; /* Hide menu on smaller screens */
+    }
+    .nav-menu-icon img{
+        display: block;
+        height:25px;
+        margin-left:15px;
+        margin-top:5px;
+    }
+    .nav-search {
+        max-width: 250px;
+    }
+    .nav-back{
+        display: flex;
+        width:20px;
+        height:35px;
+        gap:10px;
+
+    }
+}
+
+

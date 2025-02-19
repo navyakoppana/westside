@@ -1,0 +1,151 @@
+/* General Layout */
+.home-page {
+    display: flex;
+    background: linear-gradient(180deg, #f5e1ff, #e1ffea22 60%);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .home-page {
+        flex-direction: row;
+        margin-bottom: -500px;
+    }
+}
+
+/* Left Section */
+.home-page-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 450px;
+}
+
+@media (max-width: 768px) {
+    .home-page-left {
+        margin-top: -500px;
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+}
+
+/* Image in Left Section */
+.home-page-left img {
+    width: 450px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .home-page-left img {
+        width: 100%;
+        height: 600px;
+        max-width: 450px;
+    }
+}
+
+/* Center Section */
+.home-page-center {
+    display: inline-block;
+    justify-content: center;
+    margin-right: 450px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .home-page-center {
+        margin-right: 25px;
+    }
+}
+
+/* Content Text */
+.content {
+    font-size: 50px;
+    color: teal;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        font-size: 30px;
+        margin-left: 10px;
+        font-weight: 600;
+        margin-top: -300px;
+        margin-bottom: 150px;
+    }
+}
+
+/* Button Styling */
+.btn {
+    font-size: 18px;
+    height: 50px;
+    width: 180px;
+    background-color: #FF9900; 
+    color: white;
+    border-radius: 25px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #e68900; /* Darker shade for hover */
+}
+
+@media (max-width: 768px) {
+    .btn {
+        font-size: 16px;
+        height: 50px;
+        width: 120px;
+        margin-left: 15px;
+        margin-top: -100px;
+    }
+}
+
+/* Right Section */
+.home-page-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .home-page-right {
+        margin-top: -500px;
+    }
+}
+
+/* Image in Right Section */
+.home-page-right img {
+    width: 500px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .home-page-right img {
+        width: 100%;
+        height: 600px;
+        max-width: 500px;
+    }
+}
+
