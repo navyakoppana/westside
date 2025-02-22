@@ -1,7 +1,7 @@
 import { createContext,useState,useEffect} from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import products from '../assets/product_item';
+import products from '../assets/product_data';
 
 
 export const ShopContext = createContext();
