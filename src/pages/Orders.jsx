@@ -86,7 +86,10 @@ const Orders = () => {
       <div>
         {
           cartData.map((item,index) =>{
-            const productData = products.find((product) => product._id === item._id);
+              const productData = products.find((product) => product._id === item._id);
+              if (!productData) {
+                  return null; // Skip if productData is undefined
+              }
             return(
               <OrderInfoDiv key={index}>
                 <SubDiv>

@@ -1,7 +1,5 @@
-import React,{useContext} from 'react'
-import { useState } from 'react';
-import { useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import {useContext} from 'react'
+import {  useNavigate } from 'react-router-dom';
 import { assets } from '../assets/assets';
 import { ShopContext } from '../context/ShopContext'
 import { MainDiv,SearchDiv,SearchInput,SearchIcon,CrossIcon } from './SearchBar_styles';
@@ -12,8 +10,6 @@ import { MainDiv,SearchDiv,SearchInput,SearchIcon,CrossIcon } from './SearchBar_
 const SearchBar = () => {
 
     const {search,setSearch,showSearch,setShowSearch} = useContext(ShopContext);
-    const [visible,setVisible]=useState(false);
-    const location= useLocation();
     const navigate= useNavigate();
 
     const handleSubmit = (e) =>{
@@ -23,20 +19,13 @@ const SearchBar = () => {
         }
     }
 
-    useEffect(()=>{
-        // console.log(location.pathname); 
-        if(location.pathname.includes('collection')|| location.pathname === '/'){
-            setVisible(true)
-        }
-        else{
-            setVisible(false)
-        }
-        }
-    ,[location])
-  return  showSearch && visible?(
+
+
+ 
+  return  showSearch ?(
     <MainDiv>
         <SearchDiv onSubmit={handleSubmit}>
-            <SearchInput value={search} onChange={(e) =>setSearch(e.target.value)}    type='text' placeholder='Search' required />
+              <SearchInput value={search} onChange={(e) => setSearch(e.target.value)} type='text' placeholder='Search' autocomplete="on" spellcheck ='true'autocorrect='on' required />
             <SearchIcon  onClick ={handleSubmit} src={assets.search_icon} alt=" " type='submit' />
         </SearchDiv>
         <CrossIcon onClick ={() =>setShowSearch(false)} src={assets.cross_icon} alt=" " />

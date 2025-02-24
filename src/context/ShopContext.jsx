@@ -1,7 +1,7 @@
 import { createContext,useState,useEffect} from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { products } from '../assets/assets'; 
+import images from "../assets/images";
 
 
 export const ShopContext = createContext();
@@ -16,11 +16,35 @@ const ShopContextProvider = (props) => {
         const storedCartItems = localStorage.getItem('cartItems');
         return storedCartItems ? JSON.parse(storedCartItems) : {};
     });
+    const [products, setProducts] = useState([]);
         
     useEffect(() => {
     // Store cartItems in localStorage whenever they change
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
     }, [cartItems]);
+
+    useEffect(() => {
+        // Fetch products from the API
+        const fetchProducts = async () => {
+            try {
+                const response = await fetch('http://127.0.0.1:5000/api/products');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+                // Map image names to actual imports
+                const mappedProducts = data.map(product => ({
+                    ...product,
+                    image: product.image.map(imgName => images[imgName])
+                }));
+                setProducts(mappedProducts);
+            } catch (error) {
+                console.error('Failed to fetch products:', error);
+            }
+        };
+
+        fetchProducts();
+    }, []);
 
     const navigate=useNavigate();
 
@@ -59,7 +83,7 @@ const ShopContextProvider = (props) => {
                         totalCount+=cartItems[items][item];
                     }
                 }catch(error){
-
+                    console.log('Error accessing cartItems:', error);
                 }
 
             }
@@ -83,7 +107,8 @@ const ShopContextProvider = (props) => {
     const getCartAmount = () =>{
         let totalAmount = 0;
         for(const items in cartItems){
-            let itemInfo = products.find((product) => product._id===items);
+            let itemInfo = products.find((product) => product._id === items);
+            if (!itemInfo) continue; // Check if itemInfo is defined
             for (const item in cartItems[items]){
                 try{
                     if(cartItems[items][item]>0){
@@ -91,7 +116,7 @@ const ShopContextProvider = (props) => {
                     }
 
                 }catch(error){
-
+                    console.log('Error accessing cartItems:', error);
                 }
             }    
         }

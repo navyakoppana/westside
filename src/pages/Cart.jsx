@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { useContext } from 'react'
@@ -47,7 +47,10 @@ const Cart = () => {
 
       <form onSubmit = {handleSubmit}>
           {cartData.map((item,index) =>{
-              const productData = products.find((product)=>product._id===item._id);
+              const productData = products.find((product) => product._id === item._id);
+              if (!productData) {
+                  return null; // Skip if productData is undefined
+              }
               return(
                 <CartInfoDiv key={index}  >
                   <SubDiv>

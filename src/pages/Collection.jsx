@@ -1,4 +1,4 @@
-import React,{useContext} from 'react'
+import {useContext} from 'react'
 import { useState } from 'react';
 import {ShopContext} from '../context/ShopContext'
 import {assets} from '../assets/assets'
@@ -38,9 +38,8 @@ const Collection = () => {
     }
   }
 
-  const applyFilter = () => {
-    let productsCopy = products.slice();
-
+    const applyFilter = () => {
+        let productsCopy = products.slice();
     if(search && showSearch){
       productsCopy = productsCopy.filter((item =>item.name.toLowerCase().includes(search.toLowerCase())))
     }
@@ -76,7 +75,7 @@ const Collection = () => {
 
   useEffect(() =>{
     applyFilter()
-  },[category,subCategory,search,showSearch])
+  },[category,subCategory,search,showSearch,products])
 
   useEffect(() =>{
     sortProduct()
@@ -89,6 +88,8 @@ const Collection = () => {
       setCategory([categoryParam]);
     }
   }, [location.search]);
+
+   
 
   return (
     <div>
