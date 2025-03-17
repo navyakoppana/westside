@@ -1,6 +1,5 @@
-import React from 'react'
-import { useContext,useEffect } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useContext } from 'react'
+import { useLocation } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext'
 import styled from 'styled-components'
 import Title from '../components/Title'

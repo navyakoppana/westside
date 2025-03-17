@@ -1,4 +1,3 @@
-import React from 'react'
 import search_icon from '../assets/search_icon.png'
 import { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'

@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10101111-6A0C-4597-8640-6CF0E2C70BDF}|FlaskWebProject.pyproj|C:\\Users\\Jyothy\\source\\repos\\ecommerce\\FlaskWebProject\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{10101111-6A0C-4597-8640-6CF0E2C70BDF}|FlaskWebProject.pyproj|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10101111-6A0C-4597-8640-6CF0E2C70BDF}|FlaskWebProject.pyproj|C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{10101111-6A0C-4597-8640-6CF0E2C70BDF}|FlaskWebProject.pyproj|solutionrelative:app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\Jyothy\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\flask_sqlalchemy\\extension.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10101111-6A0C-4597-8640-6CF0E2C70BDF}|FlaskWebProject.pyproj|C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{10101111-6A0C-4597-8640-6CF0E2C70BDF}|FlaskWebProject.pyproj|solutionrelative:runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10101111-6A0C-4597-8640-6CF0E2C70BDF}|FlaskWebProject.pyproj|C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\FlaskWebProject\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{10101111-6A0C-4597-8640-6CF0E2C70BDF}|FlaskWebProject.pyproj|solutionrelative:FlaskWebProject\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "extension.py",
+              "DocumentMoniker": "C:\\Users\\Jyothy\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\flask_sqlalchemy\\extension.py",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\flask_sqlalchemy\\extension.py",
+              "ToolTip": "C:\\Users\\Jyothy\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\flask_sqlalchemy\\extension.py",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\flask_sqlalchemy\\extension.py",
+              "ViewState": "AgIAAJcAAAAAAAAAAAASwDUAAAAKAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVDhPrZMhboVAEIZ/GiQCiUBAgkByAZKHRnMKDKqGIAiqQXAEJEdAcAAkOEgQGASShANs9223r2xo8xJev\u002BRPdndmfmYmQTKHD4KLzPY7wA0u6V77Rg8PDMNgkmWZv3yhqioUReE3EcFgGAaUZYl5nhGGISuq6xpd12GaJhRFwTN/EAzWdYXneQiCAFEUIY5j9maaJpOmaXAch2dzjjvY953QDgjthGRZRpqmIb7vC3MfddrBtm1I0xSu6yJJEvR9j9vtxmL3veR5Dsuy2P3BsQM6u/AFugNC5ydt27KuqqoS4qz2aKDrupDwLdu2f42dRliWhZ9ExnH8MyYYXOF/DQghJz1DMJAk6aRnvDzCS78zAHwC4SWr3mOE00YAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-02-23T23:58:36.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-23T16:33:38.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.py",
+              "DocumentMoniker": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\app.py",
+              "RelativeDocumentMoniker": "app.py",
+              "ToolTip": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\app.py",
+              "RelativeToolTip": "app.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVDhPrZMhboVAEIZ/GiQCiUBAgkByAZKHRnMKDKqGIAiqQXAEJEdAcAAkOEgQGASShANs9223r2xo8xJev\u002BRPdndmfmYmQTKHD4KLzPY7wA0u6V77Rg8PDMNgkmWZv3yhqioUReE3EcFgGAaUZYl5nhGGISuq6xpd12GaJhRFwTN/EAzWdYXneQiCAFEUIY5j9maaJpOmaXAch2dzjjvY953QDgjthGRZRpqmIb7vC3MfddrBtm1I0xSu6yJJEvR9j9vtxmL3veR5Dsuy2P3BsQM6u/AFugNC5ydt27KuqqoS4qz2aKDrupDwLdu2f42dRliWhZ9ExnH8MyYYXOF/DQghJz1DMJAk6aRnvDzCS78zAHwC4SWr3mOE00YAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-02-22T00:18:55.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "runserver.py",
+              "DocumentMoniker": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\runserver.py",
+              "RelativeDocumentMoniker": "runserver.py",
+              "ToolTip": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\runserver.py",
+              "RelativeToolTip": "runserver.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVDhPrZMhboVAEIZ/GiQCiUBAgkByAZKHRnMKDKqGIAiqQXAEJEdAcAAkOEgQGASShANs9223r2xo8xJev\u002BRPdndmfmYmQTKHD4KLzPY7wA0u6V77Rg8PDMNgkmWZv3yhqioUReE3EcFgGAaUZYl5nhGGISuq6xpd12GaJhRFwTN/EAzWdYXneQiCAFEUIY5j9maaJpOmaXAch2dzjjvY953QDgjthGRZRpqmIb7vC3MfddrBtm1I0xSu6yJJEvR9j9vtxmL3veR5Dsuy2P3BsQM6u/AFugNC5ydt27KuqqoS4qz2aKDrupDwLdu2f42dRliWhZ9ExnH8MyYYXOF/DQghJz1DMJAk6aRnvDzCS78zAHwC4SWr3mOE00YAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-02-22T00:17:49.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\FlaskWebProject\\views.py",
+              "RelativeDocumentMoniker": "FlaskWebProject\\views.py",
+              "ToolTip": "C:\\Users\\Jyothy\\Source\\Repos\\ecommerce\\FlaskWebProject\\FlaskWebProject\\views.py",
+              "RelativeToolTip": "FlaskWebProject\\views.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVDhPrZMhboVAEIZ/GiQCiUBAgkByAZKHRnMKDKqGIAiqQXAEJEdAcAAkOEgQGASShANs9223r2xo8xJev\u002BRPdndmfmYmQTKHD4KLzPY7wA0u6V77Rg8PDMNgkmWZv3yhqioUReE3EcFgGAaUZYl5nhGGISuq6xpd12GaJhRFwTN/EAzWdYXneQiCAFEUIY5j9maaJpOmaXAch2dzjjvY953QDgjthGRZRpqmIb7vC3MfddrBtm1I0xSu6yJJEvR9j9vtxmL3veR5Dsuy2P3BsQM6u/AFugNC5ydt27KuqqoS4qz2aKDrupDwLdu2f42dRliWhZ9ExnH8MyYYXOF/DQghJz1DMJAk6aRnvDzCS78zAHwC4SWr3mOE00YAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-02-22T00:16:29.332Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,3 @@
-import React from 'react'
 import BestSeller from '../components/BestSeller'
 import Footer from '../components/Footer'
 import Homecontent from '../components/Homecontent'

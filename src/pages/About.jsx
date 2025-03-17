@@ -1,4 +1,3 @@
-import React from 'react'
 import { assets } from '../assets/assets'
 import styled from 'styled-components'
 import NewsLetterBox from '../components/NewsLetterBox'
@@ -53,8 +52,8 @@ const About = () => {
         <div>
           <b>Our vision is to design & deliver fashion brands.</b>
           <p>Our Customer Promise is - <b>First Price. Right Price.</b></p>
-          <p> With a collection that's self-assisted, curated with fashion solutions highlighting incredible value and edited monthly launches.</p>
-          <p> We are famous for Our Point of View as it comes alive through our backwalls & 'See It Buy It'. </p>
+          <p> With a collection that is self-assisted, curated with fashion solutions highlighting incredible value and edited monthly launches.</p>
+          <p> We are famous for Our Point of View as it comes alive through our backwalls & See It Buy It. </p>
           <p>The tables drive Seasonal Statement Lines that excite with style and value. </p>
           <p>Our service is efficient, our space is easy to navigate and our returns policy is simple and customer friendly.</p>
           <p>We are confident, optimistic, colourful and have a youthful spirit.</p>
