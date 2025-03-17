@@ -23,9 +23,6 @@ jobs:
         with:
           node-version: '22.x'
 
-      - name: Install Vite
-        run: npm install -g vite
-
       - name: npm install, build, and test
         run: |
           npm install
@@ -63,9 +60,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_204F76D963284A9EA8072DC74ECBEB24 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_56EB81AF51D84219AA70E401BD1522C9 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F2F106251CF34DBC954060EF1F8A5B0C }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_310245A37BF84F1B9658DA48F671044E }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_0A60B9E71BF8478BA45DC3B83875354B }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_310EEB0EA18A40E181F8F732DE763923 }}
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -74,3 +71,4 @@ jobs:
           app-name: 'westsideecommerce'
           slot-name: 'Production'
           package: .
+          
