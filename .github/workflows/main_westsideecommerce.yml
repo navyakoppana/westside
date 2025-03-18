@@ -22,6 +22,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '22.x'
+      - name: Remove node modules
+        run: rm -rf node_modules
+
       - name: Install Dependencies
         run: npm install
         
@@ -31,7 +34,7 @@ jobs:
 
 
       - name: Build with Vite
-        run: npx vite build
+        run: npm run dev
 
 
       - name: Zip artifact for deployment
